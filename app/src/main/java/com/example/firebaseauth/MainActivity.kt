@@ -20,18 +20,18 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        val currentUserId = intent.getStringExtra("currentUserId")
-
-        Log.d(TAG, "onCreate: current User Id: $currentUserId")
-        db.collection("users")
-            .document(currentUserId!!)
-            .get()
-            .addOnSuccessListener {
-                Log.d(TAG, "onCreate: ${it.data}")
-                binding.progressBar.visibility = View.GONE
-                binding.nameTV.text = it["name"].toString()
-                binding.phoneNumberTV.text = it["phoneNumber"].toString()
-            }
+//        val currentUserId = intent.getStringExtra("currentUserId")
+//
+//        Log.d(TAG, "onCreate: current User Id: $currentUserId")
+//        db.collection("users")
+//            .document(currentUserId!!)
+//            .get()
+//            .addOnSuccessListener {
+//                Log.d(TAG, "onCreate: ${it.data}")
+//                binding.progressBar.visibility = View.GONE
+//                binding.nameTV.text = it["name"].toString()
+//                binding.phoneNumberTV.text = it["phoneNumber"].toString()
+//            }
     }
 
 

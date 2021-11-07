@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/FirebaseAuth/app/src/main/res/drawable/background_image.xml" value="0.16905537459283387" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/FirebaseAuth/app/src/main/res/drawable/background_input.xml" value="0.16905537459283387" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/FirebaseAuth/app/src/main/res/layout/activity_auth.xml" value="0.16052631578947368" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/FirebaseAuth/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/FirebaseAuth/app/src/main/res/layout/fragment_login.xml" value="0.16052631578947368" />

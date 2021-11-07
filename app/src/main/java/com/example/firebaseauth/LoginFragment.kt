@@ -41,11 +41,11 @@ class LoginFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val email = binding.loginEmail.text
-        val pwd = binding.loginPassword.text
+        val email = binding.inputEmail.text
+        val pwd = binding.inputPassword.text
 
 
-        binding.sigupTv.setOnClickListener {
+        binding.textCreateNewAccount.setOnClickListener {
             findNavController().navigate(R.id.action_loginFragment_to_signupFragment)
         }
         binding.buttonSignIn.setOnClickListener {
